@@ -1,4 +1,7 @@
 {
+    "name": "xthk-logger",
+    "description": "Laravel logger.",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Xthk\\Logger\\": "src"
