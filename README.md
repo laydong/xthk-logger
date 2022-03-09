@@ -1,4 +1,4 @@
-<h1 align="center"> xthk/loggers </h1>
+<h1 align="center"> xthk/logger </h1>
 
 <p align="center"> 日志工具.</p>
 
@@ -6,7 +6,7 @@
 ## Installing
 
 ```shell
-$ composer require vendor/xthk/loggers -vvv
+$ composer require vendor/xthk/logger -vvv
 ```
 
 ## Usage
