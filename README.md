@@ -1,4 +1,4 @@
-<h1 align="center"> xthk/xthk-loggers </h1>
+<h1 align="center"> xthk/loggers </h1>
 
 <p align="center"> 日志工具.</p>
 
