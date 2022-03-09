@@ -1,5 +1,5 @@
 {
-    "name": "xthk\/xthk-logger",
+    "name": "climber-dong\/xthk-logger",
     "description": "Laravel logger.",
     "license": "MIT",
     "autoload": {
