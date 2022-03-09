@@ -16,7 +16,7 @@ return [
             'path' =>  rtrim(env("LOG_XTHK_PATH",storage_path()),'/')."/".env("APP_NAME")."/file.log",
             'level' => 'debug',
             'days' => 5,
-            'tap' => [Xthk\Logger\Laravel\CustomizeFormatter::class],
+            'tap' => [Xthk\Logger\XthkLogFormatter::class],
             'value_max_length' => env('REQUEST_LOG_VALUE_MAX_LENGTH', 300),
         ]
     ],
@@ -26,7 +26,7 @@ return [
         'path' =>  rtrim(env("LOG_XTHK_PATH",storage_path()),'/')."/".env("APP_NAME")."/file.log",
         'level' => 'debug',
         'days' => 5,
-        'tap' => [Xthk\Logger\Laravel\CustomizeFormatter::class],
+        'tap' => [Xthk\Logger\XthkLogFormatter::class],
         'value_max_length' => env('REQUEST_LOG_VALUE_MAX_LENGTH', 300),
     ],
     'xthklog' => [

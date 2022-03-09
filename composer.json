@@ -1,6 +1,6 @@
 {
     "name": "climber-dong\/xthk-logger",
-    "description": "Laravel logger.",
+    "description": "日志公共组件",
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -14,5 +14,12 @@
         "illuminate/http": "^8.83",
         "illuminate/bus": "^8.83",
         "illuminate/queue": "^8.83"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Xthk\\Logging\\LogServiceProvider"
+            ]
+        }
     }
 }
