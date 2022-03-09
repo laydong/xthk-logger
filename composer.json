@@ -1,5 +1,5 @@
 {
-    "name": "xthk-logger",
+    "name": "xthk\/xthk-logger",
     "description": "Laravel logger.",
     "license": "MIT",
     "autoload": {
