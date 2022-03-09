@@ -9,7 +9,6 @@ class LogServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->registerMiddleware(LogMiddleware::class);
-        $this->registerMiddleware(RequestHandledListener::class);
     }
 
     public function register()
